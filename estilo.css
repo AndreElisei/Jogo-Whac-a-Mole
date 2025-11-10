@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nextPage {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.circulo {
+    background-color: #DCDCDC;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+}
+
+.regras {
+    height: 100vh;
+    display: flex;
+    background-color: #D0d0d0;
+}
+
+.regras .contentBox {
+    width: 100%;
+    padding: 50px;
+    background-color: #c0c0c0;
+}
+
+.regras .imgBox {
+    width: 100%;
+    background: url(imagens/Mole.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.previousPage {
+    position:fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.tabuleiro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006400;
+}
+
+.gramado {
+    width: 536px;
+    height: 536px;
+    background-color: #008000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: url(imagens/hammer.png), crosshair;
+    padding: 0px;
+    border: 2px solid #DCDCDC;
+}
+
+.gramado img {
+    padding: 25px 50px 25px 50px;
+    box-sizing: content-box;
+    width: 76px;
+    height: 61px;
+}
+
+.pontos {
+    width: 536px;
+    height: 536px;
+    display: flex;
+    justify-content: center;
+}
+
+.pontos th {
+    font-size: 50px;
+    font-family: 'Bungee Spice', sans-serif;
+    text-align: center;
+}
+
+.pontos td:first-child {
+    text-align: right;
+    font-size: 36px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+#start {
+    width: 100%;
+    font-size: 36px;
+    border: 2px solid #000000;
+}
+
+.records {
+    background-color: #98FB98;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.records table {
+    border-collapse: collapse;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.records th {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.records td {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.records tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+.records td:first-child, td:nth-child(1) {
+    text-align: right;
+}
+
+.records h2 {
+    text-align: left;
+    font-size: 36px;
+    font-family: 'Bungee Spice', sans-serif;
+}
